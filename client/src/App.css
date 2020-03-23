@@ -24,6 +24,7 @@
   border: 2px solid rgb(119, 151, 247);
   border-radius: 8px;
   height: 40px;
+  margin: 20px;
   font-weight: bolder;
   font-size: 1rem;
 }
@@ -31,4 +32,13 @@
 .button:hover {
   background-color: rgb(184, 184, 184);
   color: #696969;
+}
+
+.player-card-container {
+  border: 2px solid rgb(119, 151, 247);
+  border-radius: 10px;
+  width: 20%;
+  text-align: center;
+  margin: 10px 40% 10px 40%;
+  height: 140px;
 }
