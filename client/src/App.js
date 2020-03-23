@@ -27,8 +27,8 @@ class App extends React.Component {
         <PlayerList players={this.state.players} />
       </div>
     );
-  }
-}
+  };
+};
 
 
 export default App;
