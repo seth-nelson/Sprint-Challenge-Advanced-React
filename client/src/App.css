@@ -3,7 +3,10 @@
 }
 
 .App h1{
-  height: 100px;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgb(119, 151, 247);
 }
 
 .App-header {
@@ -24,8 +27,8 @@
   border: 2px solid rgb(119, 151, 247);
   border-radius: 8px;
   height: 40px;
-  margin: 20px;
-  font-weight: bolder;
+  margin: 30px 0px 50px 0px;
+  font-weight: bold;
   font-size: 1rem;
 }
 
@@ -41,4 +44,8 @@
   text-align: center;
   margin: 10px 40% 10px 40%;
   height: 140px;
+}
+
+.player-card-container p {
+  font-style: italic;
 }

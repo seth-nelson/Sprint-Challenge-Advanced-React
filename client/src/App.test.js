@@ -10,6 +10,11 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
+test('mounts to simulated DOM', () => {
+  const simulatedDOM = render(<App />);
+  console.log(simulatedDOM.debug());
+})
+
 test('toggle button exists', () => {
   const expected = render(<App/>);
   expected.getByText(/Toggle Dark Mode/i)
