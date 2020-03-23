@@ -23,7 +23,7 @@ class App extends React.Component {
     return (
       <div className='App'>
         <h1>Women's Cup Players</h1>
-        {/* <NavBar /> */}
+        <NavBar />
         <PlayerList players={this.state.players} />
       </div>
     );
